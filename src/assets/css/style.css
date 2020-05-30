@@ -1,0 +1,12 @@
+/*
+Theme Name: Investerarbrevet
+Theme URI: https://github.com/neevalex/investerarbrevet
+Author: Neev Alex
+Author URI: https://neevalex.com
+Description: Investerarbrevet official theme.
+Version: 1.0
+Tags: responsive, clean, minimal, modern, documentation
+*/
+
+@import '../../../node_modules/normalize.css/normalize.css';
+@import './globals.css';
