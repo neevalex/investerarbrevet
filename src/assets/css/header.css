@@ -1,0 +1,148 @@
+header {
+    background-color: #0d463d;
+    padding: 0px 0;
+    display: inline-block;
+    width: 100%;
+
+    @media (max-width: 620px) {
+        padding: 0 20px;
+    }
+
+    & .toprow {
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        padding-bottom: 10px;
+        font-size: 14px;
+        position: relative;
+
+        @media (--responsive-start) {
+            display: none;
+        }
+
+
+        & .search-toggle {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            max-height: 24px;
+            max-width: 24px;
+            cursor: pointer;
+            z-index: 5;
+        }
+
+        & .search {
+            display: none;
+            background-color: #0d463d;
+            position: absolute;
+            top: -5px;
+            left: 0;
+            width: 100%;
+            z-index: 2;
+            padding: 0px;
+
+            & input {
+                min-width: 60%;
+                padding: 10px 6px;
+            }
+        }
+    }
+
+    & .header-menu {
+        padding: 25px 0;
+        padding-top: 10px;
+
+        @media (--responsive-start) {
+            padding: 20px 0;
+        }
+    }
+
+    & .logo {
+        display: inline-block;
+        width: 100%;
+
+        & img {
+            max-width: 450px;
+        }
+    }
+
+    & .menu-col {
+        text-align: center;
+    }
+
+    & .main-menu {
+        display: inline-block;
+        width: 100%;
+        padding: 8px 0;
+        text-align: right;
+
+
+        & .menu-main-container {
+            @media (--responsive-start) {
+                display: none;
+
+                &.open {
+
+                    display: block;
+                    width: 100%;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    background-color: #0d463d;
+                    height: 100vh;
+                    width: 100%;
+                    z-index: 5;
+                    text-align: center;
+
+                    padding: 20% 15%;
+
+                    & li {
+                        width: 100%;
+                        margin: 20px 0;
+                    }
+                }
+
+            }
+        }
+
+        & .menu_toggle {
+            max-height: 30px;
+            display: none;
+            cursor: pointer;
+            z-index: 2;
+
+
+            @media (--responsive-start) {
+                display: inline-block;
+                margin-right: 20px;
+            }
+        }
+
+        & ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            & li {
+                display: inline-block;
+
+                & a {
+                    display: inline-block;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    font-family: Arial;
+                    font-size: 14px;
+                    font-weight: 300;
+                    text-decoration: none;
+                    padding: 0 15px;
+                    letter-spacing: 3px;
+                    background-repeat: no-repeat;
+                    background-position: 50% 100%;
+                }
+            }
+        }
+
+
+    }
+
+}

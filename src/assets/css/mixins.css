@@ -159,14 +159,11 @@
 }
 
 @define-mixin text {
-	color: var(--color-gray-medium);
-	font-size: var(--size-text-mobile);
-	line-height: var(--lineheight-text-mobile);
-
-	@media (--screen-lg) {
-		font-size: var(--size-text-desktop);
-		line-height: var(--lineheight-text-desktop);
-	}
+font-family: Roboto;
+    font-weight: 300;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.6em;
 }
 
 @define-mixin small {

@@ -12,12 +12,16 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: antialiased;
-	font-family: var(--font-text);
-	font-size: var(--size-text-mobile);
-	line-height: var(--lineheight-text-mobile);
+	
 	padding-top: var(--padding-top-body-mobile);
 	color: var(--color-dark);
 	box-sizing: border-box;
+
+	font-family: Roboto;
+    font-weight: 300;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.6em;
 
 	@media (--screen-lg) {
 		font-size: var(--size-text-desktop);
@@ -133,4 +137,88 @@ h6 {
 
 p {
 	@mixin text;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+
+
+h4,
+h4 a {
+	font-weight: 300;
+	font-family: Oswald;
+	color: #444444;
+	font-style: normal;
+	font-size: 24px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 1.2em;
+}
+
+h1,
+h1 a {
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 55px;
+	color: #222222;
+	text-decoration: none;
+	font-style: normal;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	line-height: 1.5em;
+
+	@media (--mobile-start) {
+		font-size: 32px;
+	}
+}
+
+h2,
+h2 a {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 20px;
+	color: #333333;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.7em;
+
+	padding-top: 5px;
+}
+
+h3,
+h3 a {
+	font-weight: 300;
+	font-family: Oswald;
+	font-size: 28px;
+	color: #222222;
+	padding-bottom: 5px;
+	line-height: 1.3em;
+}
+
+h5,
+h5 a {
+	font-weight: 600;
+	font-family: Roboto;
+	font-size: 18px;
+	color: #333333;
+	padding-bottom: 5px;
+	line-height: 1.6em;
+}
+
+.fb-iframe {width: 100%!important;}
+
+
+@media (min-width: 1200px) {
+
+	.container,
+	.container-sm,
+	.container-md,
+	.container-lg,
+	.container-xl {
+		max-width: 1400px;
+	}
+
 }

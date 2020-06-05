@@ -8,5 +8,13 @@ Version: 1.0
 Tags: responsive, clean, minimal, modern, documentation
 */
 
+
+@import url(//fonts.googleapis.com/css?family=Roboto:300,400,700|Oswald:300,400,600);
+@import url(//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Oxygen:400,700,300);
+
 @import '../../../node_modules/normalize.css/normalize.css';
+@import '../../../node_modules/bootstrap-4-grid/css/grid.css';
 @import './globals.css';
+@import './header.css';
+@import './page.css';
+@import './footer.css';

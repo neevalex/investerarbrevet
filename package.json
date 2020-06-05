@@ -40,6 +40,7 @@
 		"@babel/core": "^7.9.6",
 		"@babel/preset-env": "^7.9.6",
 		"beeper": "^2.0.0",
+		"bootstrap-4-grid": "^3.4.0",
 		"browser-sync": "^2.26.7",
 		"cssnano": "^4.1.10",
 		"del": "^5.1.0",
